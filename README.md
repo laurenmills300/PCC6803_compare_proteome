@@ -1,1 +1,1 @@
-# PCC6803_compare_proteome
+# PCC6803 compare proteome
