@@ -18,7 +18,7 @@ Outline of PCC6803_comparative_analysis.py
 
 3. Line 171 uses the subprocess function to create a local BLAST database for the cyanoabcterial strain. For this, the BLAST+ must be installed on the users computer. See https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download for more details.
 
-4. Line 213 is where the X for the BLAST search can be changed, the output format can be changed, as well as the e-value cut off.
+4. Line 213 is where the conditions for the BLAST search can be changed, the output format can be changed, as well as the e-value cut off.
 
 The code then goes on to format the output for an easy-to-read, colour cooded table showing the hits associated with each well documetned PCC 6803 protein. 
 
