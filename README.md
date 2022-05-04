@@ -6,7 +6,7 @@ In this example, we use the newly discovered, fast-growing strain Synechococcus 
 
 To compare against the well-documented PCC 6803 species, the input data was based upon the findings from Baers et al. (2019). A modified version of Supplementary Table 3 (ST3)  from this paper was created and formed the starting point for all the input data required for PCC 6803’s proteome information. This can be found input_data/ST3_Baers-SuppTable3_all-PCC-6803-proteins.xlsx.
 
-A second input file was then taken from either Supplementary Tables 1, 3 or 4 found in Mills et al., these three tables are split into different class of PCC 6803’s proteome: central metabolism and transport; characterised proteins not involved in central metabolism; uncharacterised proteins. These can all be found under the input_data folder. These can either be run separately or can be combined, depending onthe output required by the user. 
+A second input file was then taken from either Supplementary Tables 1, 3 or 4 found in Mills et al., these three tables are split into different class of PCC 6803’s proteome: central metabolism and transport; characterised proteins not involved in central metabolism; uncharacterised proteins. These can all be found under the input_data folder. These can either be run separately or can be combined, depending on the output required by the user. 
 
 
 For the first step in the analysis, PCC6803_comparative_analysis.py must be run. In this example, the central metabolsim table (ST1) is used. The python code has detailed notes within the script to explain each step, but below are a few points which should be highlighted for users.
