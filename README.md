@@ -1,6 +1,6 @@
 # Synechocystis sp. PCC 6803: compare proteome with newly discovered cyanobacterial species
 
-Here, we describe a method of conducting an all vs. all protein comparison using this bioinfomratics tool for analysing the model cyanobacteria Synechocystis sp. PCC 6803 (PCC 6803) against the proteome of newly discovered cyanobacterial species. The analysis incorporates the use of the National Centre for Biotechnology Information’s (NCBI) basic local alignment search tool (BLAST).
+Here, we describe a method of conducting an all vs. all protein comparison using this bioinfomratics tool for analysing the proteome of newly discovered cyanobacterial species against the well documented, model cyanobacteria Synechocystis sp. PCC 6803 (PCC 6803). The analysis incorporates the use of the National Centre for Biotechnology Information’s (NCBI) basic local alignment search tool (BLAST).
 
 In this example, we use the newly discovered, fast-growing strain Synechococcus sp. PCC 11901 for comparison with PCC 6803. 
 
