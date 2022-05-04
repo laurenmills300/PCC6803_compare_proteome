@@ -36,8 +36,6 @@ def getIndexes_row(dfObj, value):
     return b
 
 
-#Add code here for adding uniprot ids to Laura's table
-
 # 1. Load in the data
 # Opens up an edited version of Supplementary Table 1 from Mills et al. (2020)
 # 'Current knowledge and recent advances in understanding metabolism of the model
