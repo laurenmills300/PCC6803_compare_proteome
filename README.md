@@ -25,7 +25,7 @@ The code then goes on to format the output for an easy-to-read, colour cooded ta
 The second code, unique_proteins_information.py, can be used to identify any protein IDs that did not match any of PCC 6803's proteome and can therefore be described as distinctly different (depending on the E-value chosen). Again, this code is heavily annotated but a few points to note:
 
 1. Line 21, can be changed by the used for the appropriate FASTA file for the species used in analsyis. 
-2. Line 94, insert an email address into the Entrez.email line to increase the speed od the code. 
+2. Line 94, insert an email address into the Entrez.email line to increase the speed of the code. 
 
 More information from the Entrez database may be available depending on the species used for the comparison. The code can easily be adjusted to add this extra information in.
 
