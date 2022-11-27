@@ -12,22 +12,7 @@ A second input file was then taken from either Supplementary Tables 1, 3 or 4 fo
 For the first step in the analysis, PCC6803_comparative_analysis.py must be run. In this example, the central metabolsim table (ST1) is used. The python code has detailed notes within the script to explain each step, but below are a few points which should be highlighted for users.
 
 Outline of PCC6803_comparative_analysis.py
-1. Lines 13 - 149, formats and concatenates the two original excel files into one dataframe required for the analysis.
 
-2. Line 169 can be changed to allow for the proteome file of any cyanobacterial species to be used here. This must be downloaded by the user from the NCBI's website. 
-
-3. Line 171 uses the subprocess function to create a local BLAST database for the cyanoabcterial strain. For this, the BLAST+ must be installed on the users computer. See https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download for more details.
-
-4. Line 213 is where the conditions for the BLAST search can be changed, the output format can be changed, as well as the e-value cut off.
-
-The code then goes on to format the output for an easy-to-read, colour cooded table showing the hits associated with each well documetned PCC 6803 protein. 
-
-The second code, unique_proteins_information.py, can be used to identify any protein IDs that did not match any of PCC 6803's proteome and can therefore be described as distinctly different (depending on the E-value chosen). Again, this code is heavily annotated but a few points to note:
-
-1. Line 21, can be changed by the used for the appropriate FASTA file for the species used in analsyis. 
-2. Line 94, insert an email address into the Entrez.email line to increase the speed of the code. 
-
-More information from the Entrez database may be available depending on the species used for the comparison. The code can easily be adjusted to add this extra information in.
 
 
 References:
